@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
+import Header from './components/NavBar/Header';
+import WhyChooseDewqfInance from './components/WhyChooseDewqfInance';
+import FinacialReportingSection from './components/FinacialReportingSection';
+import { FaqSection } from './components/FaqSection';
+import CoreTeam from './components/CoreTeam';
+import Footer from './components/NavBar/Footer';
+import ProgressWrap from './components/ProgressWrap';
+import ContactUsForm from './components/ContactUsForm';
+import ChooseUs from './components/ChooseUs';
+import Herosection from './components/Herosection';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Herosection />
+      <WhyChooseDewqfInance />
+      <FinacialReportingSection />
+      <ChooseUs />
+      <FaqSection />
+      <CoreTeam />
+      <ContactUsForm />
+      <Footer />
+      <ProgressWrap />
+    </>
   );
 }
 
