@@ -9,7 +9,7 @@ const Header = () => {
                     <div class="main-header" id="site-header-inner">
                         {/* <!-- logo --> */}
                         <div class="main-header-logo" id="site-logo">
-                            <a href="https://dewqfinance.com/">
+                            <a href="#">
                                 <img src={LogoImg} />
                             </a>
                         </div>
@@ -31,7 +31,7 @@ const Header = () => {
                                 <nav id="main-nav" class="main-nav">
                                     <ul id="menu-primary-menu" class="menu">
                                         <li class="menu-item menu-item-has-children ">
-                                            <a class="menu-main active" href="https://dewqfinance.com/">Home </a>
+                                            <a class="menu-main active" href="#">Home </a>
                                         </li>
 
                                         <li class="menu-item menu-item-has-children ">
@@ -65,12 +65,7 @@ const Header = () => {
 
                                             </ul>--> */}
 
-                                        </li>
-                                          {/* <!-- <li class="menu-item menu-item-has-children">
-
-                                            <a class="menu-main" id="articles_press">ARTICLES & PRESS</a>
-
-                                        </li> --> */}
+                                        </li>                                           
                                         <li class="menu-item menu-item-has-children">
                                             <a class="menu-main" id="our_team">Our Team</a>
                                         </li>

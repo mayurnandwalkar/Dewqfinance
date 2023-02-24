@@ -57,3 +57,29 @@
     line-height: 42px;
     text-transform: none;
 }
+
+.cst-close {
+    float: right;
+    background: white;
+    border: none;
+    font-size: 25px;
+}
+
+.cst-img-icons {
+    width: 18%;
+}
+
+
+@media (max-width: 425px) {
+    .custom-button {
+        width: 248px;
+    }
+
+    .custom-button-extra {
+        width: 248px;
+    }
+}
+
+.sPlay{
+    cursor: pointer;
+}
