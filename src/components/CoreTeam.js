@@ -11,7 +11,7 @@ const CoreTeam = () => {
         <>
             <a name="our_team_section"></a>
 
-            <section class="tf-section section-team style-2 finance_team_section">
+            <section class="tf-section section-team style-2 finance_team_section" id='our_team'>
 
 
 

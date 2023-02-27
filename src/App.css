@@ -24,7 +24,7 @@
 }
 
 .custom-button-start {
-    width: 36%;
+    width: 32%;
     background: #6ccac6;
     border-color: #77cad2;
     padding: 8px;
@@ -33,6 +33,7 @@
     font-size: 22px;
     border-radius: 6px;
     border-radius: #77cad2;
+    text-align: center;
 }
 
 .check {

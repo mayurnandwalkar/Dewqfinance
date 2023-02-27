@@ -2,7 +2,8 @@ import React from 'react'
 
 const ContactUsForm = () => {
     return (
-        <><section>
+        <>
+        <section id='contact_us'>
             <div class="container">
                 <div class="row justify-content-center">
                 </div>

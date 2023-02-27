@@ -3,6 +3,7 @@ import LogoFooter from '../../images/logo/whitelogo.png';
 import LocationImg from '../../images/icon/location.png';
 import EmailImg from '../../images/icon/email.png';
 import { FaDribbble, FaInstagram, FaTwitter } from 'react-icons/fa';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
@@ -31,25 +32,21 @@ const Footer = () => {
               <div class="widget-link v1">
                 <h4 class="widget-title">Categories</h4>
                 <ul class="list-wrap">
-                  <li><a href="https://dewqfinance.com/">Home</a></li>
-                  <li><a id="choose_dewq2">About Us</a></li>
-                  <li><a id="services_btn2">Services</a></li>
-                  {/* <li><a id="articles_press2">Articles & Press</a></li>  */}
-                  <li><a id="our_team2">Our Team</a></li>
-                  <li><a id="contact_us2">Contact Us</a></li>
+                <li> <AnchorLink class="menu-main active" data-toggle="tab" href="#home" role="tab">Home</AnchorLink> </li>
+                  <li> <AnchorLink class="menu-main active" data-toggle="tab" href="#choose_dewq" role="tab">About Us</AnchorLink> </li>
+                  <li> <AnchorLink class="menu-main active" data-toggle="tab" href="#services_btn" role="tab">Services</AnchorLink> </li>
+                  <li> <AnchorLink class="menu-main" data-toggle="tab" href="#our_team" role="tab">Our Team</AnchorLink>  </li>
+                  <li><AnchorLink class="menu-main" data-toggle="tab" href="#contact_us" role="tab">Contact Us</AnchorLink> </li>
                 </ul>
               </div>
               <div class="widget-contact-form">
                 <div class="heading">
                   <img src={EmailImg} alt={EmailImg} />
                   <h3>Free Consultati<span class="color">on!</span></h3>
-                  {/* <!--<p>Please Crate Your E-mail And Free Consultation*</p>--> */}
                 </div>
                 <div class="fomr-contact">
                   <form action="/contact/contact-process2.php" method="post" accept-charset="utf-8" class="form-submit contact-form wpcf7-form">
                     <div class="form-group">
-                      {/* <!--<input type="email" name="email" value="" class="email" placeholder="Enter Your Email...">
-                        <button name="submit" type="submit" class=" submit btn">Get started</button> --> */}
                       <a id="get_started_btn" name="submit" type="submit" class="submit btn get_started_btn">Get started</a>
                     </div>
                   </form>
@@ -62,7 +59,6 @@ const Footer = () => {
           <div class="container">
             <div class="bottom-footer">
               <div class="content">
-                {/* <!-- <h5>About Intuit <span>Join our team</span> </h5> --> */}
                 <ul>
                   <li><a href="#">Terms and Conditions</a></li>
                   <li><a href="#">Privacy Policy</a></li>
@@ -73,7 +69,7 @@ const Footer = () => {
               <div class="info">
                 <ul class="list-social">
                   <li><a href="https://www.linkedin.com/company/dewq-finance/"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="https://twitter.com/quincychapman"><FaTwitter/></a></li>
+                  <li><a href="https://twitter.com/quincychapman"><FaTwitter /></a></li>
                   <li><a href="#"><FaDribbble /></a></li>
                   <li><a href="#"><FaInstagram /></a></li>
                 </ul>

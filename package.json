@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@trendyol-js/react-carousel": "^3.0.2",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-grid-carousel": "^1.0.1",

@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import LogoImg from '../../images/logo/whitelogo.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 const Header = () => {
     return (
         <>
@@ -31,55 +33,28 @@ const Header = () => {
                                 <nav id="main-nav" class="main-nav">
                                     <ul id="menu-primary-menu" class="menu">
                                         <li class="menu-item menu-item-has-children ">
-                                            <a class="menu-main active" href="#">Home </a>
+                                            <AnchorLink class="menu-main active" data-toggle="tab" href="#home" role="tab">Home</AnchorLink>
                                         </li>
-
                                         <li class="menu-item menu-item-has-children ">
-                                            <a class="menu-main" id="choose_dewq">About Us </a>
-                                            {/* <!-- <ul class="sub-menu">
-                                                <li class="menu-item current-item">
-                                                    <a href="index.html">Home 1</a>
-                                                </li>
-                                                <li class="menu-item"><a href="home-v2.html">Home 2</a></li>
-                                            </ul>--> */}
+                                            <AnchorLink class="menu-main " data-toggle="tab" href="#choose_dewq" role="tab">About Us</AnchorLink>
                                         </li>
                                         <li class="menu-item menu-item-has-children">
-                                            <a class="menu-main" id="services_btn">Services </a>
-                                            {/* <!--<ul class="sub-menu">
-                                                <li class="menu-item current-item">
-                                                    <a href="services.html">Services</a>
-
-                                                </li>
-
-                                                <li class="menu-item">
-
-                                                    <a href="team.html">Team</a>
-
-                                                </li>
-
-                                                <li class="menu-item">
-
-                                                    <a href="testimonials.html">Testimonials</a>
-
-                                                </li>
-
-                                            </ul>--> */}
-
-                                        </li>                                           
-                                        <li class="menu-item menu-item-has-children">
-                                            <a class="menu-main" id="our_team">Our Team</a>
+                                            <AnchorLink class="menu-main " data-toggle="tab" href="#services_btn" role="tab">Services</AnchorLink>
                                         </li>
                                         <li class="menu-item menu-item-has-children">
-                                            <a class="menu-main" id="contact_us">Contact Us</a>
+                                            <AnchorLink class="menu-main" data-toggle="tab" href="#our_team" role="tab">Our Team</AnchorLink>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <AnchorLink class="menu-main" data-toggle="tab" href="#contact_us" role="tab">Contact Us</AnchorLink>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="btn-header wow fadeInRight" data-wow-delay="800ms">
-                            <a id="free_consultation_btn" class="btn-action" style={{ "cursor": "pointer" }}>
-                                <span class="more">Free Consultation</span>
-                            </a>
+                            <AnchorLink data-toggle="tab" href="#contact_us" role="tab" id="free_consultation_btn" class="btn-action" style={{ "cursor": "pointer" }}>
+                                 <span class="more">Free Consultation</span>                           
+                            </AnchorLink>
                         </div>
                     </div>
                 </div>

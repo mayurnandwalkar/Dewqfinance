@@ -1,9 +1,10 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import IdewqimageImg from '../images/SPlay.png'
 
 const Herosection = () => {
     return (
-        <section class="herosection tf-section section-choose-us">
+        <section class="herosection tf-section section-choose-us" id='home'>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
@@ -13,7 +14,8 @@ const Herosection = () => {
                             <li style={{ "color": "white", "list-style-type": "disc", "font-size": "30px " }}><h4>Business Plan</h4></li>
                             <li style={{ "color": "white", "list-style-type": "disc", "font-size": "30px " }}><h4>Live UpKeep</h4></li>
                         </ul>
-                        <button className='custom-button-start'>Start Now</button>
+                        {/* <button className='custom-button-start' data-toggle="tab" href="#contact_us">Start Now</button> */}
+                        <AnchorLink className='custom-button-start' data-toggle="tab" href="#contact_us" role="tab">Start Now</AnchorLink>
 
                     </div>
                     <div class="col-sm-8">
