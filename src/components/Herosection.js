@@ -15,15 +15,18 @@ const Herosection = () => {
                             <li style={{ "color": "white", "list-style-type": "disc", "font-size": "30px " }}><h4>Live UpKeep</h4></li>
                         </ul>
                         {/* <button className='custom-button-start' data-toggle="tab" href="#contact_us">Start Now</button> */}
-                        <AnchorLink className='custom-button-start' data-toggle="tab" href="#contact_us" role="tab">Start Now</AnchorLink>
+                        <AnchorLink className='custom-button-start mb-3' data-toggle="tab" href="#contact_us" role="tab">Start Now</AnchorLink>
 
                     </div>
                     <div class="col-sm-8">
-                        <img src={IdewqimageImg} className="sPlay" />
+                        {/* <img src={IdewqimageImg} className="sPlay" /> */}
+                        <video width="100%" controls  poster={IdewqimageImg} className="sPlay" >
+                            <source src="../../video/financialPro.mp4" type="video/mp4" />
+                        </video>
 
                         <div className='row p-5'>
-                            <div className='col'><button className='custom-button'>Advance Deep Dive</button></div>
-                            <div className='col'><button className='custom-button-extra'>Client Testimonials</button></div>
+                            <div className='col mb-1'><button className='custom-button'>Advance Deep Dive</button></div>
+                            <div className='col mb-1'><button className='custom-button-extra'>Client Testimonials</button></div>
                         </div>
                     </div>
                 </div>

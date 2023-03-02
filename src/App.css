@@ -1,25 +1,31 @@
 .custom-button {
     width: 100%;
+    font-family: 'Teko';
     background: #6ccac6;
     height: 100%;
     border-color: #77cad2;
     padding: 8px;
     color: white;
     background: #77cad2;
-    font-size: 22px;
+    font-size: 30px;
     border-radius: 6px;
     border-radius: #77cad2;
 }
 
 .custom-button-extra {
+
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 17px;
+    color: #77CAD2;
     width: 100%;
     height: 100%;
-    border-color: #77cad2;
-    padding: 8px;
-    color: white;
     background: #0A0A0A;
-    font-size: 22px;
+    font-size: 30px;
     border-radius: 6px;
+    border-color: #77CAD2;
     border-radius: #77cad2;
 }
 
@@ -78,9 +84,25 @@
 
     .custom-button-extra {
         width: 248px;
+        padding: 20px;
+        
     }
 }
 
-.sPlay{
+.sPlay {
     cursor: pointer;
+}
+
+
+.modal.fade.show {
+    display: block !important;
+    position: fixed;
+    /* margin-left: 160px; */
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
 }
