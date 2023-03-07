@@ -9,8 +9,7 @@ const ChooseUs = () => {
 
     const [flag, setflag] = useState(false)
     const handleVideoBtn = () => {
-        console.log("s")
-        setflag(true)
+         setflag(true)
     }
 
     const handleVideoBtnClose = () => {

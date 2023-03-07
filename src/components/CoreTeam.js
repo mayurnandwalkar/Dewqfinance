@@ -130,7 +130,6 @@ const CoreTeam = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div class="main-content">
-
                                     <div class="team-box wow fadeInUp">
                                         <div class="img-team">
                                             <img src={YousafImg} alt="" />
@@ -142,7 +141,7 @@ const CoreTeam = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </Carousel.Item>
+                            </Carousel.Item>                            
                         </Carousel>
                     </div>
                 </div>
