@@ -97,8 +97,8 @@
 .modal.fade.show {
     display: block !important;
     position: fixed;
-    /* margin-left: 160px; */
-    top: 0;
+    margin-left: 0px;
+    top: 125px;
     left: 0;
     z-index: 1050;
     width: 100%;
