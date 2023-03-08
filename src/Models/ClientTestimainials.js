@@ -8,7 +8,7 @@ import CoomaImg from '../images/commaImg.png'
 import Carousel from 'react-grid-carousel'
 
 
-const ClientTestimainials = ({ flagtestimonial, handleClosePopup }) => {
+const ClientTestimainials = ({ flagtestimonial, handleClosePopup ,ref}) => {
     return (
         <>
             <div class={`modal fade ${flagtestimonial ? "show" : ""} bd-example-modal-lg`} id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -19,7 +19,7 @@ const ClientTestimainials = ({ flagtestimonial, handleClosePopup }) => {
                             <img src={CloseImg} style={{ "width": "36px" }} onClick={handleClosePopup} />
                         </div>
 
-                        <div class="modal-body" style={{ "background": "#3a3839" }}>
+                        <div class="modal-body" style={{ "background": "#3a3839" }}  ref={ref} >
                             <div className='container' >
                                 <Carousel cols={1} rows={1} gap={10} loop>
                                     <Carousel.Item>

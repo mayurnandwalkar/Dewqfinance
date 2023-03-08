@@ -18,7 +18,7 @@ const AdvanceDeepModel = ({ flag, handleClosePopup }) => {
                         </div>
                         <div class="modal-body" style={{ "background": "#3a3839" }}>
                             <div className='container'>
-                                <video width="100%" controls poster={IdewqimageImg} className="sPlay" >
+                                <video width="100%" controls poster={IdewqimageImg} className="sPlay"  >
                                     <source src="../../video/financialPro.mp4" type="video/mp4" />
                                 </video>
                             </div>
