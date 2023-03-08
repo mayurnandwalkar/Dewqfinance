@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import IdewqimageImg from '../images/SPlay.png'
 import CloseImg from '../images/colose.png'
-
+import testimage from '../images/testimages.jpg'
 
 const AdvanceDeepModel = ({ flag, handleClosePopup }) => {
     return (

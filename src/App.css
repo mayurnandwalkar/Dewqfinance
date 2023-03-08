@@ -85,7 +85,7 @@
     .custom-button-extra {
         width: 248px;
         padding: 20px;
-        
+
     }
 }
 
@@ -107,6 +107,23 @@
     outline: 0;
 }
 
-/* {
-    background-color-:#3A3839;
-} */
+.extra-bg-class {
+     background: rgb(251 249 249)
+}
+.div-chalu-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:24px;
+    background-repeat: no-repeat;
+}
+
+.chnagecolor-star{
+    color: #F6CA2E;
+}
+.div-left{
+    position: absolute;
+    top: 240px;
+}
